@@ -1,0 +1,36 @@
+NET "CLK" LOC = "B8";
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "LED<7>" LOC = "G1" ; # Bank = 3, Signal name = LD7
+NET "LED<6>" LOC = "P4" ; # Bank = 2, Signal name = LD6
+NET "LED<5>" LOC = "N4" ;  # Bank = 2, Signal name = LD5
+NET "LED<4>" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+NET "LED<3>" LOC = "P6" ; # Bank = 2, Signal name = LD3
+NET "LED<2>" LOC = "P7" ; # Bank = 3, Signal name = LD2
+NET "LED<1>" LOC = "M11" ; # Bank = 2, Signal name = LD1
+NET "LED<0>" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+NET "SW<7>" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "SW<6>" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "SW<5>" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "SW<4>" LOC = "G3";  # Bank = 3, Signal name = SW4
+NET "SW<3>" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "SW<2>" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "SW<1>" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "SW<0>" LOC = "P11";  # Bank = 2, Signal name = SW0
+
+NET "V0" LOC = "B2"  | DRIVE = 8;
+NET "RS" LOC = "A3"  | DRIVE = 8;
+NET "RW" LOC = "J3"  | DRIVE = 8;
+NET "E" LOC = "B5"  | DRIVE = 8;
+
+NET "D<0>" LOC = "C6"  | DRIVE = 8;
+NET "D<1>" LOC = "B6"  | DRIVE = 8;
+NET "D<2>" LOC = "C5"  | DRIVE = 8;
+NET "D<3>" LOC = "B7"  | DRIVE = 8;
+
+NET "D<4>" LOC = "A9"  | DRIVE = 8;
+NET "D<5>" LOC = "B9"  | DRIVE = 8;
+NET "D<6>" LOC = "A10" | DRIVE = 8;
+NET "D<7>" LOC = "C9"  | DRIVE = 8;
+
+NET "K" LOC = "C12"  | DRIVE = 4;

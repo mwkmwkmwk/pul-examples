@@ -1,0 +1,1 @@
+run -ifn ctr.prj -p xc3s100e-4-cp132 -top ctr -ofn ctr
