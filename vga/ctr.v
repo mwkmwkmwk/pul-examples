@@ -25,8 +25,8 @@ localparam ADDR_D = 8'h02;
 wire clk;
 
 DCM_SP #(
-	.CLKFX_DIVIDE(2),
-	.CLKFX_MULTIPLY(5)
+	.CLKFX_DIVIDE(7),
+	.CLKFX_MULTIPLY(11)
 ) moj_dcm (
 	.CLKIN(uclk),
 	.CLKFX(clk),
