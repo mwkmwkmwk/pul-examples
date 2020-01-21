@@ -1,0 +1,5 @@
+read_verilog top.v
+read_verilog uart.v
+read_verilog cpu.v
+synth_xilinx -top top -family xc6s -ise
+write_edif -pvector bra example.edif
